@@ -1,0 +1,106 @@
+html,
+body
+{
+  height: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+
+#graphsAndFilter {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-top: 1%;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+#resultMessage {
+  color: #555;
+  padding-left: 1.5%;
+  padding-top: 1%;
+}
+
+#tableDiv {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+#barDiv {
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  padding-bottom: 1%;
+  padding-top: 1%;
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+#map-id {
+  padding-top: 100%;
+  width: 100%;
+  background-color: #f3f5f7;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+#table-area {
+  height: 560px;
+  overflow: scroll;
+}
+
+.footer {
+  background-color: rgb(255, 255, 255, 0.9);
+}
+
+.legend {
+  padding: 10px;
+  font-family: Sanchez, serif;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  color: #555;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.legend .low {
+  color: #11aa11;
+}
+
+.legend .medium {
+  color: #f0da17;
+}
+
+.legend .high {
+  color: #ec4646;
+}
+
+
+.card {
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+#tooltip-canvas {
+  position: absolute;
+  text-align: center;
+  height: 20%;
+  width: 40%;
+  transform: translate(75%, 210%);
+}
+
