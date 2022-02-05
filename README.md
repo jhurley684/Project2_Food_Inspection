@@ -64,7 +64,7 @@ The `Resources` folder contains the file `updated_food_inspection.csv`, which ca
 
 ### Start the Flask Server
 
-1. Open `flask_app.py`.
+1. Open `python flask_app.py`.
 2. Set the `username` and `password` variables to your pgAdmin 4 username and password. Then save and exit.
 3. Run `flask_app.py` to start the Flask server.
 4. Take note of the local host address Python returns.
